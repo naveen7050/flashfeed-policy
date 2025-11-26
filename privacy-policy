@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Information - FlashFeed</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .legal-section { margin-bottom: 2.5rem; }
+        .legal-section h2 { margin-bottom: 1rem; }
+        .legal-section h3 { margin-top: 1.5rem; margin-bottom: 0.5rem; font-weight: 600; color: #1f2937; }
+        .legal-section p, .legal-section li { color: #4b5563; line-height: 1.6; margin-bottom: 0.5rem; }
+        .legal-section ul { list-style-type: disc; padding-left: 1.5rem; margin-bottom: 1rem; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Navigation / Header -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex items-center">
+                    <img src="image_2e78d3.jpg" alt="Red-F Studios Logo" class="h-10 w-10 rounded-full mr-3 border border-gray-200">
+                    <span class="font-bold text-xl text-gray-900 tracking-tight">FlashFeed</span>
+                </div>
+                <div class="text-sm text-gray-500 hidden sm:block">
+                    Legal & Privacy
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Banner -->
+    <div class="w-full bg-gray-900 overflow-hidden">
+        <div class="max-w-4xl mx-auto">
+            <!-- Displaying the banner image provided -->
+            <img src="image_2e78b1.jpg" alt="Red-F Studios Banner" class="w-full h-auto object-cover opacity-90">
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 bg-white shadow-lg -mt-4 relative rounded-t-lg">
+        
+        <div class="text-center mb-10 border-b border-gray-100 pb-8">
+            <h1 class="text-3xl font-bold text-gray-900 sm:text-4xl mb-2">Legal Information</h1>
+            <p class="text-lg text-gray-500">Privacy Policy, Terms of Use, and Licenses</p>
+            <div class="mt-4 text-sm text-gray-400">
+                <p><strong>App Name:</strong> FlashFeed &nbsp;|&nbsp; <strong>Developer:</strong> Red-F Studios</p>
+                <p><strong>Last Updated:</strong> November 27, 2025</p>
+            </div>
+        </div>
+
+        <!-- 1. Privacy Policy -->
+        <section id="privacy" class="legal-section">
+            <div class="flex items-center mb-4">
+                <div class="bg-red-100 text-red-600 rounded-full p-2 mr-3">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+                </div>
+                <h2 class="text-2xl font-bold text-gray-900">1. Privacy Policy</h2>
+            </div>
+            
+            <p><strong>Introduction</strong><br>
+            Red-F Studios ("we," "our," or "us") respects your privacy. This policy explains how FlashFeed handles your data.</p>
+
+            <h3>Data Collection & Storage</h3>
+            <ul>
+                <li><strong>No Personal Data:</strong> We do not collect names, emails, phone numbers, location, or device IDs.</li>
+                <li><strong>Local Storage Only:</strong> All data (bookmarks, settings) is stored locally on your device using SharedPreferences and Hive. If you uninstall the app, this data is lost.</li>
+                <li><strong>No External Servers:</strong> We do not operate a backend server and do not transmit your data to the cloud.</li>
+                <li><strong>No Third-Party Tracking:</strong> There are no analytics, crash reporting, or advertising SDKs in this app.</li>
+            </ul>
+
+            <h3>Permissions</h3>
+            <p>We only request <strong>Internet</strong> permission (<code>android.permission.INTERNET</code>) to fetch public RSS feeds. We do not access your camera, contacts, or file storage.</p>
+
+            <h3>Age Restriction (18+)</h3>
+            <p>FlashFeed is intended for users aged 18 and older. We do not knowingly collect information from individuals under 18.</p>
+        </section>
+
+        <hr class="my-8 border-gray-100">
+
+        <!-- 2. Terms of Use -->
+        <section id="terms" class="legal-section">
+            <div class="flex items-center mb-4">
+                <div class="bg-blue-100 text-blue-600 rounded-full p-2 mr-3">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                </div>
+                <h2 class="text-2xl font-bold text-gray-900">2. Terms of Use</h2>
+            </div>
+
+            <h3>Agreement</h3>
+            <p>By using FlashFeed, you agree to these Terms. You verify that you are at least 18 years old.</p>
+
+            <h3>License</h3>
+            <p>You are granted a personal, non-commercial license to use FlashFeed to read news. You may not reverse engineer the app or use it for illegal activities.</p>
+
+            <h3>Disclaimer ("As Is")</h3>
+            <p>The app is provided "as is" without warranties. We are not responsible for errors in RSS feeds, service interruptions, or data loss.</p>
+        </section>
+
+        <hr class="my-8 border-gray-100">
+
+        <!-- 3. Copyright -->
+        <section id="copyright" class="legal-section">
+            <div class="flex items-center mb-4">
+                <div class="bg-green-100 text-green-600 rounded-full p-2 mr-3">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                </div>
+                <h2 class="text-2xl font-bold text-gray-900">3. Copyright & Content Disclaimer</h2>
+            </div>
+
+            <h3>RSS Feeds</h3>
+            <p>FlashFeed is an aggregator. All news headlines, summaries, and images are the intellectual property of their respective publishers.</p>
+            <ul>
+                <li>We do not modify the original content.</li>
+                <li>We are not affiliated with the news sources displayed.</li>
+                <li>Clicking a link directs you to the publisher's original website.</li>
+            </ul>
+
+            <h3>Takedown Requests</h3>
+            <p>If you are a publisher and wish for your RSS feed to be removed, please contact us at the email below.</p>
+        </section>
+
+        <hr class="my-8 border-gray-100">
+
+        <!-- 4. Licenses -->
+        <section id="licenses" class="legal-section">
+             <div class="flex items-center mb-4">
+                <div class="bg-purple-100 text-purple-600 rounded-full p-2 mr-3">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                </div>
+                <h2 class="text-2xl font-bold text-gray-900">4. Open Source Licenses</h2>
+            </div>
+            
+            <p>FlashFeed is built with Flutter and uses open-source software. We acknowledge the authors of these libraries.</p>
+
+            <h3>License Notice (MIT/BSD/Apache)</h3>
+            <blockquote class="p-4 my-4 bg-gray-50 border-l-4 border-gray-300 italic text-sm text-gray-600">
+                "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software..."
+            </blockquote>
+            <p class="text-sm">For specific license details per package, please refer to the "About" section in the app.</p>
+        </section>
+
+        <!-- Footer / Contact -->
+        <footer class="mt-12 pt-8 border-t border-gray-200 text-center">
+            <h3 class="text-lg font-bold text-gray-900 mb-2">Contact Us</h3>
+            <p class="text-gray-600 mb-4">Red-F Studios</p>
+            <a href="mailto:contact@redfstudios.com" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 transition duration-150 ease-in-out">
+                
+                redfstudio.apps@gmail.com
+            </a>
+            <p class="mt-8 text-xs text-gray-400">
+                &copy; 2025 Red-F Studios. All rights reserved.
+            </p>
+        </footer>
+
+    </main>
+
+</body>
+</html>
